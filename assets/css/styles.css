@@ -1265,7 +1265,7 @@ select {
 }
 /* ======= Download Apps ======= */
 .download-page .headline-bg {
-  height: 1200px;
+  height: 600px;
   background: #253340 url('../images/background/bg-mobile-headline.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1273,7 +1273,7 @@ select {
   background-size: cover;
 }
 .apps-section {
-  min-height: 900px;
+  min-height: 500px;
   padding-top: 80px;
 }
 .apps-section .title {
@@ -1286,18 +1286,6 @@ select {
 .apps-section .intro {
   text-align: center;
   margin-bottom: 60px;
-}
-.apps-section .phone-holder {
-  width: 324px;
-  height: 651px;
-  display: block;
-  background: url('../images/mobile/iphone.png') no-repeat left top;
-  position: relative;
-}
-.apps-section .phone-holder .screenshot {
-  position: absolute;
-  left: 21px;
-  top: 75px;
 }
 .apps-section .content-area .download-list li {
   margin-bottom: 15px;
@@ -3026,16 +3014,6 @@ select {
   .nav-tabs > li > a {
     padding: 10px 5px;
   }
-  .apps-section .phone-holder {
-    -webkit-background-size: 280px auto;
-    -moz-background-size: 280px auto;
-    -o-background-size: 280px auto;
-    background-size: 280px auto;
-  }
-  .apps-section .phone-holder .screenshot {
-    width: 242px;
-    top: 66px;
-  }
   .searchbox-container .searchbox {
     width: 100%;
     top: inherit;
@@ -3205,16 +3183,6 @@ select {
   .why .item .title {
     margin-bottom: 30px;
     text-align: center;
-  }
-  .apps-section .phone-holder {
-    -webkit-background-size: 280px auto;
-    -moz-background-size: 280px auto;
-    -o-background-size: 280px auto;
-    background-size: 280px auto;
-  }
-  .apps-section .phone-holder .screenshot {
-    width: 242px;
-    top: 66px;
   }
   .footer-col {
     margin-bottom: 30px;
