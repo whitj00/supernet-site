@@ -1304,7 +1304,7 @@ select {
 }
 .apps-section .content-area .download-list li .btn {
   width: 220px;
-  text-align: left;
+  text-align: center;
 }
 .apps-section .content-area .info {
   margin-top: 60px;
@@ -2577,7 +2577,7 @@ select {
   margin-bottom: 15px;
 }
 .footer .download .download-list li .btn-ghost {
-  text-align: left;
+  text-align: center;
   -webkit-opacity: 0.6;
   -moz-opacity: 0.6;
   opacity: 0.6;
@@ -3356,7 +3356,7 @@ select {
     overflow: hidden;
   }
   .download-area .download-list {
-    float: left;
+    float: center;
   }
   .download-area .qrcode-holder {
     float: left;
