@@ -1,3 +1,15 @@
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 /*   
  * Template Name: SuperNET - Responsive Website Template for Products
  * Version: 1.5
@@ -1081,10 +1093,6 @@ select {
   margin-bottom: 30px;
   color: #fff;
 }
-.pricing .intro {
-  color: #fff;
-  margin-bottom: 80px;
-}
 .pricing .item {
   padding: 0;
   -webkit-border-radius: 4px;
@@ -1276,7 +1284,7 @@ select {
   color: #fff;
 }
 .apps-section .intro {
-  text-align: left;
+  text-align: center;
   margin-bottom: 60px;
 }
 .apps-section .phone-holder {
@@ -2975,9 +2983,6 @@ select {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 60px;
-  }
-  .signup-page .form-box .intro {
-    margin-bottom: 45px;
   }
   .login-page .form-box .title {
     margin-bottom: 45px;
