@@ -15,7 +15,7 @@ var tooltipOptions=
     cssClass: "",
     sticky: false,
     overlay: false,
-    license: "64628"
+    license: "247t5"
 };
 
 /* JavaScript Tooltip v2014.9.16. Copyright www.menucool.com */
