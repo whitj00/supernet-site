@@ -18,6 +18,9 @@
     <!-- Plugins CSS -->    
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <!-- Tooltip -->    
+    <link type="text/css" rel="stylesheet" href="tooltip/tooltip.css" />
+    <script type="text/javascript" src="tooltip/tooltip.js"></script>
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <script src="lib/sweet-alert.min.js"></script>
@@ -89,9 +92,9 @@
                         <h2 class="title text-center ">Get connected anytime, anywhere</h2>
                         <p class="intro text-center ">Download the SuperNET beta client</p>
                         <ul class="list-inline" style="display: inline-block; text-align: center; width: 100%;">
-                            <li><a class="btn btn-ghost" href="https://objects.dreamhost.com:443/supernet/SupernetMac1.1b.dmg"><i class="fa fa-apple"></i><span class="text">Download for Mac</span> </a></li>
-                            <li><a class="btn btn-ghost" href="https://objects.dreamhost.com/supernet/SuperNET_Beta-1.4.msi"><i class="fa fa-windows"></i><span class="text">Download for Windows</span></a></li>
-                            <li><a class="btn btn-ghost" href="https://bitbucket.org/longzai1988/supernetv1/downloads/supernetv1-1.4b.zip"><i class="fa fa-linux"></i><span class="text">Download for Linux</span></a></li>
+                            <li><a class="btn btn-ghost" href="https://objects.dreamhost.com:443/supernet/SupernetMac1.1b.dmg" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"><i class="fa fa-apple"></i><span class="text">Download for Mac</span> </a></li>
+                            <li><a class="btn btn-ghost" href="https://objects.dreamhost.com/supernet/SuperNET_Beta-1.4.msi" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"><i class="fa fa-windows" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"></i><span class="text">Download for Windows</span></a></li>
+                            <li><a class="btn btn-ghost" href="https://bitbucket.org/longzai1988/supernetv1/downloads/supernetv1-1.4b.zip" onmouseover="tooltip.pop(this, 'This software is in development, and should not be trusted with a majority of your funds')"><i class="fa fa-linux"></i><span class="text">Download for Linux</span></a></li>
 
                         </ul>
                     </div><!--//download-area-->
